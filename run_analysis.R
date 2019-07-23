@@ -4,7 +4,8 @@ library(dplyr)
 ###First, get everything we need set up 
 
 #Set the working directory
-setwd("C:/Coursera Projects/Cleaning Data Course Project/getdata_projectfiles_UCI HAR Dataset/UCI HAR Dataset")
+#setwd("C:/Coursera Projects/Cleaning Data Course Project/getdata_projectfiles_UCI HAR Dataset/UCI HAR Dataset")
+setwd("https://github.com/SarahEthakoti/Getting-Cleaning-Data-Course-Project/")
 
 #set training data sets
 sTrain <- read.table("train/subject_train.txt", header = FALSE)
